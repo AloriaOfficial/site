@@ -153,6 +153,16 @@ section {
   }
 }
 
+@media (max-width: 380px) {
+  .container {
+    flex-direction: column;
+    margin-top: 80px;
+    height: auto;
+    padding: 10px;
+    width: calc(100% - 0px);
+  }
+}
+
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   header {
     position: fixed;
